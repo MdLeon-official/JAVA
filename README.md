@@ -16,7 +16,7 @@ Learning Java helps build strong programming fundamentals and problem-solving sk
 ### 🛠 Setup
 
 - Java Version: OpenJDK 17+  
-- IDE: Zed / IntelliJ IDEA / VS Code  
+- IDE: Zed , VS Code  
 - Compile and Run:
   ```bash
   javac FileName.java
