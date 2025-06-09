@@ -385,11 +385,14 @@ Box<Integer> intBox = new Box<>();
 
 ### 🧷 **Static Keyword**
 
-* **What:** Belongs to **class**, not to objects.
-* **Why:** Shared among all objects.
-* **Use when:** You want one common value/method for all objec
+* **What:** Belongs to the **class**, not to the object.
+* **Why:** Shared across all instances (saves memory).
+* **Use when:** You need a value or method common for all objects.
 
-* Belongs to the class, not objects. Shared among all objects.
+**Examples:**
+
+* `static int count`: One counter for all objects.
+* `static method`: Called without object.
 
 ```java
 class Example {
@@ -401,12 +404,12 @@ class Example {
 
 ### 🧭 **Super Keyword**
 
-* **What:** Refers to **parent class**.
-* **Why:** To access things from parent.
-* **Use when:** Child class wants to call parent’s method or constructor.
+* **What:** Refers to the **parent class**.
+* **Why:** To access/override parent’s variables or methods.
+* **Use when:** You want to:
 
-
-* Used to call the parent class's method or constructor.
+  * Call the parent’s constructor.
+  * Call a method hidden by child class.
 
 ```java
 class Animal {
@@ -422,4 +425,33 @@ class Dog extends Animal {
     }
 }
 ```
+
+
+
+---
+
+## 🔁 Quick-Use Table — When & Why to Use Each Concept
+
+| 🧩 Concept                 | 💡 Use When / Why                                                      |
+| -------------------------- | ---------------------------------------------------------------------- |
+| **OOP**                    | To structure code with real-world modeling.                            |
+| **Class/Object**           | To group and use data + behavior together.                             |
+| **Constructor**            | To initialize object state when created.                               |
+| **Overloaded Constructor** | To give multiple ways to create objects.                               |
+| **Getters/Setters**        | To protect and control access to private fields (Encapsulation).       |
+| **Inheritance**            | To reuse code (child class gets parent's methods/fields).              |
+| **Method Overriding**      | When child class wants to customize parent method.                     |
+| **Polymorphism**           | Write general code that works for many types.                          |
+| **Runtime Polymorphism**   | When method behavior depends on actual object at runtime.              |
+| **Abstract Class**         | When base class shouldn't be created directly; only subclasses should. |
+| **Interface**              | When different classes must follow the same rule/contract.             |
+| **Composition**            | When part cannot exist without whole (strong has-a).                   |
+| **Aggregation**            | When part can exist without whole (weak has-a).                        |
+| **Anonymous Class**        | For one-time use classes (quick override of method).                   |
+| **Array of Objects**       | To store/manage multiple objects of same type.                         |
+| **ArrayList**              | Flexible version of array (can grow/shrink).                           |
+| **Enums**                  | To define a set of fixed constants.                                    |
+| **Generics**               | To write reusable code that works with any type.                       |
+| **Static Keyword**         | When value/method belongs to class, not instance (shared among all).   |
+| **Super Keyword**          | To access parent class’s methods/fields/constructor.                   |
 
