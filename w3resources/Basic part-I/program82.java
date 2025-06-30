@@ -1,6 +1,6 @@
 import java.util.Arrays;                                                                      
                                                                                                
-public class Main {                                                                            
+public class program82 {                                                                            
                                                                                                
     public static void main(String[] args) {                                                   
         int[] array_nums = { 20, 30, 40, 50, 67 };                                             
