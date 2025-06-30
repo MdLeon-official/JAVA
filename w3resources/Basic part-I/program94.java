@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class program93 {
+public class program94 {
     public static void main(String[] args) {
         // Define an array of integers
         int[] array_nums = {1, 7, 8, 5, 7, 13, 0, 2, 4, 9};
