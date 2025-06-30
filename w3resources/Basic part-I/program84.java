@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class program84 {
 
     public static void main(String[] args) {
         String string1 = "Python";
